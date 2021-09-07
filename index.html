@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .inner{
+            width: 500px;
+            height: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+        input, button{
+            width: 100%;
+            height: 2rem;
+            margin-bottom: 5px;    
+        }
+        .img-div{
+            width: 30%;
+            height: 100%;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: inline;
+        }
+        .content{
+            display: inline;
+            width: 70%;
+            height: 100%;
+        }
+        .box{
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        h3{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner">
+            <h2>DevSearch</h2>
+        <input id="search" type="text" placeholder="Search By Username">
+        <button id="btn">Search</button>
+        <div id="container">
+            
+        </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
